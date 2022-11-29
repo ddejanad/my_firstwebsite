@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Dejanka</title>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Dejana\proektnazadaca1\proektnac.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,100;1,200&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/b9812d3c43.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="up">
+        <nav>
+            <div class="nav-links">
+             <ul>
+                <li><a href="C:\Users\Dejana\proektnazadaca1\proektnah.html">HOME</a></li>
+                <li><a href="C:\Users\Dejana\proektnazadaca1\blog.html">BLOG</a></li>
+                <li><a href="C:\Users\Dejana\proektnazadaca1\miniinsta.html">INSTA</a></li>
+                <li><a href="C:\Users\Dejana\proektnazadaca1\question.html">QUESTION</a></li>
+                <li><a href="C:\Users\Dejana\proektnazadaca1\aboutme.html">CONTACT</a></li>
+             </ul>
+            </div>
+           
+         </nav>
+         <div class="instagram">
+        <i class="fa-brands fa-instagram"></i>
+          Instagram
+
+         </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search..">
+          </div>
+          <div class="naslov">
+          <h4>dimeskadejana <br><br>
+            4 posts    623 followers   552 following
+            
+          </h4>
+        </div>
+     
+        <section class="favthings_inst">
+          <hr>
+           <h3>Feed</h3>
+    
+            <div class="row">
+                <div class="insta" id="insta">
+                <img src="petar1.jpg" alt="petar" id="petar">
+                <span class="like">
+                  <i onclick="like3()" id="li3" class="fa-solid fa-heart"></i>
+                </span>
+                <span class="dontlike">
+                  <i onclick="dontlike3()" id="di3" class="fa-solid fa-heart-crack"></i>
+                </span>
+                <div class="search-bar">
+                    <input type="text" placeholder="Leave comment..">
+                  </div>
+                
+                </div>
+                <div class="insta">
+                    <img src="saska2.jpg" alt="sasule" id='sasule'>
+                    <span class="like">
+                      <i onclick="like2()" id="li2" class="fa-solid fa-heart"></i>
+                    </span>
+                    <span class="dontlike">
+                      <i onclick="dontlike2()" id="di2" class="fa-solid fa-heart-crack"></i>
+                    </span>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Leave comment..">
+                      </div>
+                    
+                </div>
+                <div class="insta">
+                   
+                        <img src="vacay.jpg" alt="vacay" id="vacay">
+                        <span class="like">
+                          <i onclick="like1()" id="li1" class="fa-solid fa-heart"></i>
+                        </span>
+                        <span class="dontlike">
+                          <i onclick="dontlike1()" id="di1" class="fa-solid fa-heart-crack"></i>
+                        </span>
+                        <div class="search-bar">
+                            <input type="text" placeholder="Leave comment..">
+                          </div>
+                </div>
+                <div class="insta">
+                   
+                    <img src="vacay2.jpg" alt="vacay2" id="vacay2">
+                    <span class="like">
+                      <i onclick="like()" id="li" class="fa-solid fa-heart"></i>
+                    </span>
+                    <span class="dontlike">
+                      <i onclick="dontlike()" id="di" class="fa-solid fa-heart-crack"></i>
+                    </span>
+                     <div class="search-bar">
+                        <input type="text" placeholder="Leave comment..">
+                      </div>
+                      
+            </div>
+            <div class="insta" id="insta">
+              <img src="dejana.jpg" alt="dejana" id="dejana">
+              <span class="like">
+                <i onclick="like4()" id="li4" class="fa-solid fa-heart"></i>
+              </span>
+              <span class="dontlike">
+                <i onclick="dontlike4()" id="di4" class="fa-solid fa-heart-crack"></i>
+              </span>
+              <div class="search-bar">
+                  <input type="text" placeholder="Leave comment..">
+                </div>
+            
+            </div>
+            
+    
+        </section>
+    </section>
+
+   
+
+    <script>
+      function like()
+      {
+        document.getElementById('li').style.color="red"
+        document.getElementById('di').style.color="grey"
+      }
+      function dontlike()
+      {
+        document.getElementById('di').style.color="black"
+        document.getElementById('li').style.color="grey"
+      }
+      function like1()
+      {
+        document.getElementById('li1').style.color="red"
+        document.getElementById('di1').style.color="grey"
+      }
+      function dontlike1()
+      {
+        document.getElementById('di1').style.color="black"
+        document.getElementById('li1').style.color="grey"
+      }
+      function like2()
+      {
+        document.getElementById('li2').style.color="red"
+        document.getElementById('di2').style.color="grey"
+      }
+      function dontlike2()
+      {
+        document.getElementById('di2').style.color="black"
+        document.getElementById('li2').style.color="grey"
+      }
+      function like3()
+      {
+        document.getElementById('li3').style.color="red"
+        document.getElementById('di3').style.color="grey"
+      }
+      function dontlike3()
+      {
+        document.getElementById('di3').style.color="black"
+        document.getElementById('li3').style.color="grey"
+      }
+      function like4()
+      {
+        document.getElementById('li4').style.color="red"
+        document.getElementById('di4').style.color="grey"
+      }
+      function dontlike4()
+      {
+        document.getElementById('di4').style.color="black"
+        document.getElementById('li4').style.color="grey"
+      }
+    </script>
+
+
+    
+</body>
+
+</html>

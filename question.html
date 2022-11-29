@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Dejanka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Dejana\proektnazadaca1\proektnac.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,100;1,200&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <section class="photo">
+        <nav>
+            <div class="nav-links">
+             <ul>
+              <li><a href="C:\Users\Dejana\proektnazadaca1\proektnah.html">HOME</a></li>
+              <li><a href="C:\Users\Dejana\proektnazadaca1\blog.html">BLOG</a></li>
+              <li><a href="C:\Users\Dejana\proektnazadaca1\miniinsta.html">INSTA</a></li>
+              <li><a href="C:\Users\Dejana\proektnazadaca1\question.html">QUESTION</a></li>
+              <li><a href="C:\Users\Dejana\proektnazadaca1\aboutme.html">CONTACT</a></li>
+             </ul>
+            </div>
+           
+         </nav>
+        <p>If you have free time, you can rate my work</p><br>
+
+       
+   
+
+    <div class="row">
+      
+      <div class="fav_things3">
+          <h3>Home page</h3>
+          <select name="rate" id="rate1">
+            <option value="1">okay</option>
+            <option value="2">very baaaddd</option>
+            <option value="3">nothing special</option>
+            <option value="4">gooooood</option>
+            <option value="5">could've been better</option>
+            <option value="6">nicee !</option>
+            <option value="7">well done girl</option>
+          </select>
+      </div>
+      <div class="fav_things3">
+          <h3>Insta page</h3>
+          <select name="rate" id="rate1">
+            <option value="1">okay</option>
+            <option value="2">very baaaddd</option>
+            <option value="3">nothing special</option>
+            <option value="4">gooooood</option>
+            <option value="5">could've been better</option>
+            <option value="6">nicee !</option>
+            <option value="7">well done girl</option>
+          </select>
+          
+      </div>
+      <div class="fav_things3">
+          <h3>Blog page</h3>
+          <select name="rate" id="rate1">
+            <option value="1">okay</option>
+            <option value="2">very baaaddd</option>
+            <option value="3">nothing special</option>
+            <option value="4">gooooood</option>
+            <option value="5">could've been better</option>
+            <option value="6">nicee !</option>
+            <option value="7">well done girl</option>
+          </select>
+      </div>
+ 
+
+  </section>
+
+  <div class="question">
+
+    <p>Here, you can ask whatever questions you want.</p>
+    <div class="search-bar2">
+      <input id="question_input" type="text" placeholder="Ask a question..">
+    </div>
+    <button id="submit-ask-question-button">Send question</button>
+  </div>
+
+       
+
+   <script>
+    
+    function onSubmitAskQuestionForm(){
+      let questionInput=document.getElementById("question_input").value;
+     
+          if(questionInput ==="")
+    {
+      window.alert("Не испративте прашање");
+    }
+    else{
+      window.alert("Прашањето се испрати успешно");
+    }
+
+    }
+    document.getElementById("submit-ask-question-button").addEventListener("click", onSubmitAskQuestionForm, false);
+   </script>
+
+    
+
+    
+</body>
+
+</html>
